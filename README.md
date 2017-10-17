@@ -6,5 +6,14 @@ Requirements:
 
 A admin telegram bot
 
-pyTelegramBotAPI
+start.py : pyTelegramBotAPI
 
+other.py : telepot
+
+Note : since pyTelegramBotAPI failed to process messages other than text messages, I switched to telepot
+
+How to run:
+
+```
+python other.py <your token>
+```
